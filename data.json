@@ -1,41 +1,65 @@
+
 {
-    "arabica": [
-        {
-            "foto": "images/produk/product_capuchino.jpg",
-            "nama": "Cappuccino Arabica",
-            "size": "500 Gram",
-            "harga": "200.000",
-            "link": "https://www.google.com/search?q=cappuccino+arabica&tbm=shop"
+  "arabica": [
+    {
+      "foto": "images/produk/product_capuchino.jpg",
+      "nama": "Cappuccino Arabica",
+      "size": "500 Gram",
+      "harga": "200.000",
+      "link": "https://www.google.com/search?q=cappuccino+arabica&tbm=shop"
         },
-        {
-            "foto": "images/produk/product_espresso.jpg",
-            "nama": "Pahit Arabica",
-            "size": "100 Gram",
-            "harga": "100.000",
-            "link": "https://www.google.com/search?q=pahit+arabica&tbm=shop"
+    {
+      "foto": "images/produk/product_espresso.jpg",
+      "nama": "Pahit Arabica",
+      "size": "100 Gram",
+      "harga": "100.000",
+      "link": "https://www.google.com/search?q=pahit+arabica&tbm=shop"
         },
-        {
-            "foto": "images/produk/product_latte.jpg",
-            "nama": "Latte Arabica",
-            "size": "150 Gram",
-            "harga": "150.000",
-            "link": "https://www.google.com/search?q=latte+arabica&tbm=shop"
+    {
+      "foto": "images/produk/product_latte.jpg",
+      "nama": "Latte Arabica",
+      "size": "150 Gram",
+      "harga": "150.000",
+      "link": "https://www.google.com/search?q=latte+arabica&tbm=shop"
         }
     ],
-    "robusta": [
-        {
-            "foto": "images/produk/product_kopi_susu.jpg",
-            "nama": "Kopsus Robusta",
-            "size": "100 Gram",
-            "harga": "500.000",
-            "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+  "robusta": [
+    {
+      "foto": "images/produk/product_kopi_susu.jpg",
+      "nama": "Kopsus Robusta",
+      "size": "100 Gram",
+      "harga": "500.000",
+      "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
         },
-        {
-            "foto": "images/produk/product_latte.jpg",
-            "nama": "Latte Robusta",
-            "size": "150 Gram",
-            "harga": "150.000",
-            "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
+    {
+      "foto": "images/produk/product_latte.jpg",
+      "nama": "Latte Robusta",
+      "size": "150 Gram",
+      "harga": "150.000",
+      "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
         }
-    ]
+    ],
+  "nonkopi": [
+    {
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTswFHXaSBeeLCrnl76G1XpJ6ICmEkECuhCA&usqp=CAU",
+      "nama": "Es cendol",
+      "size": "100 Gram",
+      "harga": "500.000",
+      "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+    },
+    {
+      "foto": "https://kageweblog.files.wordpress.com/2017/10/es-campur.jpg?w=1446",
+      "nama": "Es Campur",
+      "size": "100 Gram",
+      "harga": "20.000",
+      "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+    },
+    {
+      "foto": "  https://3.bp.blogspot.com/-4gL1b8v4WRw/WBxZKalssYI/AAAAAAAAAZs/nRyCJ53jqaMf8vcbSqyOBtNUM2WzbA7rgCEw/s1600/eskrim-min.jpg",
+      "nama": "Es Cream",
+      "size": "100 Gram",
+      "harga": "50.000",
+      "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+    }
+  ]
 }

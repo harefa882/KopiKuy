@@ -14,16 +14,15 @@
     <script src="js/jquery-3.6.3.min.js"></script>
     <style>
         /* tulis kode CSS internal di bawah sini */
-
-
+     
 
         /* Batas Akhir penulisan kode CSS internal */
     </style>
 </head>
 
-<body>
+<body style="background: url(./images/background/bgkopi.png)">
     <!-- Tulis Kode Bootstrap Di Bawah Sini -->
-
+    
 
     <nav class="navbar navbar-dark bg-success navbar-expand-lg bisadicopy">
         <div class="container">
@@ -68,7 +67,7 @@
     </nav>
     
     <section class="riki-block produk text-center my-5 py-5">
-        <div class="container">
+        <div class="container" >
             <h1>Pilih Produk Anda</h1>
             <p class="fs-4">Kualitas Terbaik Biji kopi pilihan, fresh langsung dari petani</p>
             <hr class="border border-success border-3 opacity-75">
@@ -85,7 +84,6 @@
             </div>
 
             <div id="baris_produk" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center mt-5">
-
                 <div class="col mb-4">
                     <div class="card">
                         <img src="images/produk/product_capuchino.jpg" class="card-img-top" alt="...">
@@ -99,12 +97,10 @@
                                     15.000
                                 </div>
                             </div>
-                            <a href="#" class="btn btn-success w-100"> <i class="bi bi-cart4"></i> Beli</a>
+                            <a href="cart.html" class="btn btn-success w-100"> <i class="bi bi-cart4"></i> Beli</a>
                         </div>
                     </div>
-                </div>
-
-              
+                </div>            
         </div>
     </section>
 
@@ -138,24 +134,27 @@
     <!-- Batas Akhir penulisan kode Bootstrap -->
     <script>
         /* Tulis Javascript Di bawah Sini */
-
         const sumber = "https://rikikurnia.com/prakerja/api/kopi"
         const sumber2 = "data.json"
         var data_kopi = []
         var data_pilihan = []
 
-        $.getJSON(sumber).then(function (data) {
+        $.getJSON(sumber2).then(function (data) {
             data_kopi = data
             console.log(data_kopi)
-        })
+        })
 
-        select_kopi.onchange = function (){
-            let pilihan =select_kopi.value
+        $.getJSON(sumber2).then (function (data) {
+            data_kopi = data
+            console.log(data_kopi)
+            })
+
+            select_kopi.onchange = function () {
+            let pilihan = select_kopi.value
             console.log(pilihan)
-            data_pilihan = data_kopi [pilihan]
+            data_pilihan = data_kopi[pilihan]
             console.log(data_pilihan)
             updateTampilan()
-            
         }
         function updateTampilan() {
             baris_produk.innerHTML = ""
@@ -173,7 +172,8 @@
                                     ${item.harga}
                                 </div>
                             </div>
-                            <a href="${item.link}" class="btn btn-success w-100"><i class="bi bi-basket"></i> Beli</a>
+                            <a href="cart.html" class="btn btn-success w-100"> <i class="bi bi-cart4"></i> Beli</a>
+                        </div>
                         </div>
                     </div>
                 </div>`

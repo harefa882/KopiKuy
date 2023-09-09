@@ -1,0 +1,44 @@
+.card {
+    border: none;
+  }
+  .card-header {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: none;
+  } 
+  .btn-light:focus {
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+    box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
+  }
+  .form-control {
+    height: 50px;
+    border: 2px solid #eee;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #039be5;
+    outline: 0;
+    box-shadow: none;
+  }
+  .bg-nav {
+    background-color: #73483f;
+  }
+  .bg-cok {
+    background-color: #f4ede5;
+  }
+  div.nomorakun {
+    /* color mengatur warna tulisan */
+    text-align: left;
+    margin-top: 4px;
+    margin-left: 50px;
+    margin-bottom: 21px;
+  }
+  .oder {
+    font-size: 12px;
+  }
